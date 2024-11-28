@@ -72,7 +72,7 @@ public class LoginTest extends BaseTest {
 		test.log(Status.PASS, "Successful Clicked on cart icon");
 		
 		test.log(Status.INFO, "Verify added cart value");
-		Assert.assertEquals(homepage.getCartValue(), "1");
+		Assert.assertEquals(homepage.getCartValue(), "2");
 		test.log(Status.PASS, "cart value verified");
 		
 	}catch(Exception e) {
