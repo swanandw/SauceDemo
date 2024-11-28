@@ -23,7 +23,7 @@ public class BaseTest {
 	@BeforeTest
 	public void setupReport() {
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentReport.html");
-		sparkReporter.config().setDocumentTitle("Automation Report");
+		sparkReporter.config().setDocumentTitle("Automation Report New");
 		sparkReporter.config().setReportName("End to End Testing");
 		sparkReporter.config().setTheme(Theme.STANDARD);
 		
